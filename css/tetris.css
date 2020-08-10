@@ -1,0 +1,69 @@
+body {
+  background: #202028;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2em;
+  text-align: center;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+canvas {
+  border: solid 0.2em #fff;
+}
+.canvas__container {
+  height: 46%;
+  margin-top: 1rem;
+
+  margin-bottom: 0;
+}
+
+.score__container {
+  margin-top: 0;
+}
+h4 {
+  color: rgb(180, 176, 240);
+  margin-top: 2rem;
+  margin-bottom: 10px;
+}
+.name {
+  height: 8rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 42px;
+
+  margin: 0;
+}
+
+h5 {
+  color: rgb(180, 176, 240);
+  height: 3rem;
+
+  padding: 0;
+  margin: 0;
+}
+
+h6 {
+  color: rgb(37, 225, 0);
+}
+#score {
+  color: rgb(202, 126, 206);
+}
+
+.directions__container {
+  width: 15rem;
+  border: white 2px solid;
+}
+
+.text__wrapper {
+  width: 48%;
+  display: flex;
+
+  justify-content: space-between;
+  height: 7rem;
+}
